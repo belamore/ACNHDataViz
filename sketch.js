@@ -34,7 +34,7 @@ function setup() {
       saying: v.saying,
       textcolor: v["text-color"],
       bubblecolor: v["bubble-color"],
-      icon: loadImage(`icons/villagers/${keys[i]}.png`)
+      icon: loadImage(`${keys[i]}.png`)
     });
   }
 }
